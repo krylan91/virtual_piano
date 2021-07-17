@@ -1,0 +1,55 @@
+body {
+    background: darkolivegreen url("resources/notes.png");
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    border: darkslategrey 1px solid;
+    width: 50px;
+    height: 50px;
+    padding: 120px 0 0;
+    background-color: white;
+    margin-left: -4px;
+    border-radius: 5px;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 60px 0 0;
+    background-color: black;
+    border: darkslategrey 1px solid;
+    border-radius: 5px;
+    color: wheat;
+    position: relative;
+    bottom: 171px;
+}
+
+#w {
+    right: 60px;
+}
+
+#e {
+    right: 44px;
+}
+
+#t {
+    left: 24px;
+}
+
+#y {
+    left: 40px;
+}
+
+#u {
+    left: 55px;
+}
